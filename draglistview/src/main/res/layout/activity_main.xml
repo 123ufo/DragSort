@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.cifpay.draglistview.view.MyListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:dividerHeight="20dp"
+        android:layout_height="match_parent">
+
+    </com.cifpay.draglistview.view.MyListView>
+
+</LinearLayout>
